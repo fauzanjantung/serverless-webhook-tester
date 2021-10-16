@@ -1,0 +1,22 @@
+{
+  "name": "webhook-tester",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.94.1"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.94.1",
+    "@serverless-stack/cli": "0.10.4",
+    "@serverless-stack/resources": "0.10.4",
+    "aws-sdk": "^2.874.0",
+    "uuid": "^3.3.2"
+  }
+}

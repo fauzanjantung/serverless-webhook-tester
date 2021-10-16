@@ -1,0 +1,6 @@
+{
+  "name": "webhook-tester",
+  "stage": "dev",
+  "region": "ap-southeast-1",
+  "lint": true
+}
